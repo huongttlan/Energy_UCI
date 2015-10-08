@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>Not enough options are chosen</title>
+        <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+    </head>
+    <body>
+        <div class=page>
+            <h2>Not enough option is chosen to generate the graph &#9785; </h2>
+            <h4> You can click on Go Back button to choose another one &#9996;.</h4>  
+            <figure>
+                 <img src="https://jh.app.box.com/files/0/f/4112381379/1/f_34063442615" 
+                        alt="Hello" width="304" height="228">
+            </figure>
+            <form id='errormsg' method='post' action='errormsg' > <!-- action is the URL you want to move to next-->
+                <p>
+                    <input type='submit' value='Go Back' /> <!-- value is the text that will appear on the button. -->
+                </p>
+            </form>
+        </div class=metanav>
+        </div>
+    </body>
+</html>
